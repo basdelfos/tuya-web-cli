@@ -2,11 +2,11 @@ const Base = require('./lib/base')
 
 var base = new Base();
 
-// Discover Tuya devices
+// Get Tuya device state
 console.log('Get Tuya device state...');
 base.getToken((api, options) => {
 
-  if (options.id === '') {
+  if (!options.id || options.id === '') {
     console.log('No device id specified, please use --id to specify the device id.')
   }
   else {
