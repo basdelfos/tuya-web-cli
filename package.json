@@ -1,0 +1,30 @@
+{
+  "name": "tuya-web-cli",
+  "version": "1.0.0",
+  "description": "CLI tools for communicating with Tuya Web API (Home Assistant) for purpose of analysing",
+  "main": "discover.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basdelfos/tuya-web-cli.git"
+  },
+  "keywords": [
+    "Tuya"
+  ],
+  "author": "Bas Delfos <b.delfos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basdelfos/tuya-web-cli/issues"
+  },
+  "homepage": "https://github.com/basdelfos/tuya-web-cli#readme",
+  "dependencies": {
+    "arg-to-object": "^1.2.3",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
+  }
+}
